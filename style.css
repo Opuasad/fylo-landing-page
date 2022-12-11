@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+.header-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+header img{
+    height: 30px;
+    margin-left: 20px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    padding: 2px;
+    font-family: 'Open Sans', sans-serif;
+    color: black; 
+}
+.scend-page img{
+    width: 90%;
+    height: 100hv;
+    align-items: center;
+}
+.scend-page h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.scend-page p{
+    text-align: center;
+    padding: 20px;
+}
+input{
+    margin-left: 20px;
+    margin-bottom: 10px;
+   
+}
+.input-box{
+    display: block;
+    padding: 10px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.submit-btn{
+    display: block;
+    padding: 10px;
+    width: 305px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: #fff;
+    background-color: hsla(239, 93%, 47%, 0.767) ;
+    font-weight: bolder ;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 70px;
+
+
+}
+.therd-page img{
+    width: 100%;
+}
+.therd-page h1{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+}
+.therd-page{
+    padding: 10px;
+}
+.h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 30px;
+
+}
+.four-page h1{
+    font-size: 18px;
+    width: 200px;
+    border-bottom:2px  solid hsl(170, 45%, 43%);
+    margin-right: 100px;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin: auto;
+  
+}
+.icon{
+    padding: 3px 5px ;
+    background-color:  hsl(170, 45%, 43%);
+    border-radius: 30px;
+    color: #fff;
+    align-items: center;
+}
+.four-page p{
+    font-size: 12px
+}
+.card{
+    
+    width: 300px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    border-radius: 5px;
+}
+.four-page{
+    margin-bottom: 50px;
+}
+.five-page{
+    background-color: hsl(238, 22%, 44%);
+    text-align: center;
+    height: 350px;
+}
+.five-page h1{
+    color: #fff;
+    font-size: 18px;
+    padding: 50px 0px 20px 0px;
+}
+.five-page p{
+    color: #fff;
+    font-size: 15px;
+    padding: 30px;
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    padding: 30px 20px;
+
+}
+.footer .img{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer a{
+    color: #fff;
+}
+.footer p{
+    color: #fff;
+}
+.footer li a{
+   text-decoration: none;
+   color: #fff;
+  
+}
+.ft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+.ic{
+    margin: 10px;
+}
+@media (min-width:376px) {
+   .header-container ul li a{
+    margin-right: 30px;
+   } 
+   .header-container ul{
+    margin-right: 80px;
+   }
+   .header-container img{
+    margin-left: 50px;
+    
+   }
+   .scend-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+
+   }
+   .scend-page-text h1{
+    text-align: start;
+    font-size: 32px;
+    margin-left: 20px;
+    }
+     .scend-page-text p{
+        
+        font-size: 14px;
+        text-align: start;
+       
+
+       
+     }
+     
+    .scend-page-text{
+       margin-left: 30px; 
+       width: 50%;
+      
+    }
+    .input-aiya{
+        margin-bottom: 0px;
+        
+    }
+    .scend-page-text .input-box{
+        width: 350px;
+       
+        
+    }
+    .scend-page-text .submit-btn{
+        width: 150px;
+       
+       
+    }
+    .therd-page{
+        background-image: url("img/bg-curve-desktop.svg");
+        background-repeat: no-repeat; 
+          
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;  
+    background-color: hsl(240, 75%, 98%) !important;
+    
+    }
+    .therd-page-img{
+        width: 50%;
+       justify-content: center;
+       justify-items: center;   
+    }
+    .therd-page-text{
+        margin-left: 50px;
+        width: 50%;  
+    }
+   #text{
+    font-size: 30px;
+    text-align: start;
+    margin-left: -20px;
+   }
+   #p-text{
+    padding: 10px 200px 10px 0px;
+   }
+   #five{
+    background-color: hsl(238, 22%, 44%);
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    
+
+}
+#five h1{
+    color: #fff;
+    font-size: 20px;
+    text-align: start;
+    margin-left: 50px;
+    margin-bottom:-10px;
+    
+}
+.five-1{
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+#five p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 20px 60px 0px 0px;
+    margin-left: 50px;
+    text-align: start;
+   
+}
+#input-box{
+    width: 50%;
+   justify-content: center;
+   justify-items: center;
+    margin: auto;
+}
+.input-box{
+    width: 380px;
+
+}
+.submit-btn{
+    width: 150px;
+}
+.submit-btn:hover{
+    background-color:hsl(239, 70%, 75%); ;
+}
+.footer{
+    display: flex;
+
+    justify-content: space-around;
+   justify-items: center;
+    height: 250px;
+}
+ol{
+    margin-top: 75px;
+
+}
+.ft{
+    margin-top: -100px;
+}
+}
